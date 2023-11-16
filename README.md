@@ -1,1 +1,1 @@
-# GX2
+# GX2 - Front-End 
