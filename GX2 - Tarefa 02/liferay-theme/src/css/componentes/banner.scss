@@ -1,0 +1,14 @@
+.banner {
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+    @include media-breakpoint-down(md){
+        background-image: url("https://images.adsttc.com/media/images/5c23/9cd1/08a5/e5c8/b900/0b76/newsletter/Jeremy_Bittermann.jpg?1545837763");
+        background-size: cover;
+    }
+
+    @include media-breakpoint-up(md){
+        background-image: url("https://images.adsttc.com/media/images/5c23/9c5f/08a5/e5c8/b900/0b74/newsletter/Courtesy_of_Maria%CC%80_Castello%CC%81_Marti%CC%81nez.jpg?1545837650");
+        background-size: cover;
+    }
+}
